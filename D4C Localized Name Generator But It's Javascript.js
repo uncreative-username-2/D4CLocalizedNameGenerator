@@ -38,21 +38,24 @@ var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "D
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
 		
 		
-		var D = Filthy.charAt(0);
+		
 
-function countWords(str) {
-  return str.trim().split(/\s+/).length;
-}
+        function countWords(s){
+          s = s.replace(/\n/g,' '); 
+          s = s.replace(/(^\s*)|(\s*$)/gi,''); 
+          s = s.replace(/[ ]{2,}/gi,' '); 
+          return s.split(' ').length; 
+        }
 
-
-        var four1 = countWords(FilthyActsAtAReasonablePrice);
-        var four = four1 - 1;
+        var D = Filthy.charAt(0);
+        var four = FilthyActsAtAReasonablePrice.countWords();
         var C2 = Price.charAt(0);
    
     
         var C = C2.toUpperCase();
 
-        
+
+
         var D4C = D + four + C;
     
     
