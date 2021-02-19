@@ -42,8 +42,12 @@
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
                 var FilthyActsAtAReasonablePrice4 = FilthyActsAtAReasonablePrice32[randomNumber6];
 
+                function WordCount(str) { 
+                  return str.split(" ").length;
+	     }
+
                 var D = Filthy.charAt(0);
-                var four = 6;
+                var four = WordCount(FilthyActsAtAReasonablePrice4);
                 var C2 = Price.charAt(0);
     
     
