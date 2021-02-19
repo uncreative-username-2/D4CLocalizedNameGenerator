@@ -37,10 +37,10 @@
                 var FilthyActsAtAReasonablePrice32 = [FilthyActsAtAReasonablePrice12, FilthyActsAtAReasonablePrice22];
 		
 		const randomNumber = Math.floor(Math.random() * FilthyActsAtAReasonablePrice3.length);
-		const randomNumber = Math.floor(Math.random() * FilthyActsAtAReasonablePrice32.length);
+		const randomNumber6 = Math.floor(Math.random() * FilthyActsAtAReasonablePrice32.length);
 
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
-                var FilthyActsAtAReasonablePrice4 = FilthyActsAtAReasonablePrice32[randomNumber];
+                var FilthyActsAtAReasonablePrice4 = FilthyActsAtAReasonablePrice32[randomNumber6];
 
                 var D = Filthy.charAt(0);
                 var four = 6;
