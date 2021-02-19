@@ -39,25 +39,22 @@ var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "D
 		
 		
 		var D = Filthy.charAt(0);
-        var four = 6;
+
+function countWords(str) {
+  return str.trim().split(/\s+/).length;
+}
+
+
+        var four1 = countWords(FilthyActsAtAReasonablePrice);
+        var four = four1 - 1;
         var C2 = Price.charAt(0);
    
     
         var C = C2.toUpperCase();
-
-var Check = done.includes("with a");
-var Check2 = done.includes("at a")
-var Check3 = done2.includes("with an")
-var Check4 = done2.includes("at an")
-
-if(Check == true || Check2 == true || Check3 == true || Check4 == true)){
-
-four = 5;
-
-}
 
         
         var D4C = D + four + C;
     
     
 		
+
