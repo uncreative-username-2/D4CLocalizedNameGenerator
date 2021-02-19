@@ -47,7 +47,7 @@
 	     }
 
                 var D = Filthy.charAt(0);
-                var yes = WordCount(FilthyActsAtAReasonablePrice4);
+                var yes = FilthyActsAtAReasonablePrice4.WordCount();
                 var C2 = Price.charAt(0);
     
     
