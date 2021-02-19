@@ -39,11 +39,9 @@
 		
 		
 		
-    function countWords(str) {
-      return str.split(' ')
-            .filter(function(n) { return n != '' })
-            .length;
-       }
+   function countWords(str) {
+     return str.trim().split(/\s+/).length;
+   }
 
         var D = Filthy.charAt(0);
         var four = FilthyActsAtAReasonablePrice.countWords();
