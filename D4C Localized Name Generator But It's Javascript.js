@@ -45,17 +45,17 @@ var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "D
     
         var C = C2.toUpperCase();
 
-if(done.includes("with a") || done.includes("at a")){
+var Check = done.includes("with a");
+var Check2 = done.includes("at a")
+var Check3 = done2.includes("with an")
+var Check4 = done2.includes("at an")
+
+if(Check == true || Check2 == true || Check3 == true || Check4 == true)){
 
 four = 5;
 
 }
 
-if (done2.includes("with an") || done2.includes("at an")){
-
-four = 5;	
-	
-}
         
         var D4C = D + four + C;
     
