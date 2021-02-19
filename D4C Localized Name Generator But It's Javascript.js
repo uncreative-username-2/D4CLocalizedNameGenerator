@@ -45,12 +45,12 @@
 
 		var count = FilthyActsAtAReasonablePrice.countWords();
 
-                var D = Filthy.charAt(0);
+                var D69= Filthy.charAt(0);
 		var four = 6;
                 var C2 = Price.charAt(0);
               
-                var C = C2.toUpperCase();
+                var C69 = C2.toUpperCase();
                 
-                var D4C = D + four.toString + C;
+                var D4C = D69 + four.toString + C69;
 		
 
