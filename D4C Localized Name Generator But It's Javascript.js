@@ -45,13 +45,13 @@ var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "D
     
         var C = C2.toUpperCase();
 
-if(done === "with a" || done === "at a"){
+if(done.includes("with a") || done.includes("at a")){
 
 four = 5;
 
 }
 
-if (done2 === "with an" || done2 === "at an"){
+if (done2.includes("with an") || done2.includes("at an")){
 
 four = 5;	
 	
