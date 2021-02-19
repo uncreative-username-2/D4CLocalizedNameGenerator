@@ -53,16 +53,18 @@
                 var Check2 = AtA.includes("at an");
                 var Check3 = AtA.includes("at a");
 
+                var D4C = D + "6" + C;
+
                 if(Check) {
                  four = 5;
 		} else if(Check1){
-                 four = 5;
+                 D4C = D + "5" + C;
 		} else if(Check2){
-                 four = 5;
+                 D4C = D + "5" + C;
 		} else if(Check3){
-                 four = 5;
+                 D4C = D + "5" + C;
 		} else {
-                 four = 6;
+                 D4C = D + "6" + C;
 		}
         
-                var D4C = D + four + C;
+               
