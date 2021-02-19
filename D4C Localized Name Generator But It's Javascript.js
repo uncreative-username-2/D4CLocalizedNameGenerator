@@ -46,10 +46,10 @@
          }
 
                  var D = Filthy.charAt(0);
-                 var four = countWords(FilthyActsAtAReasonablePrice);
+                 var yes = FilthyActsAtAReasonablePrice.countWords();
                  var C2 = Price.charAt(0);
     
     
                  var C = C2.toUpperCase();
         
-                 var D4C = D + four + C;
+                 var D4C = D + yes + C;
