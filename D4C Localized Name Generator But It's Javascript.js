@@ -41,15 +41,28 @@
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
                 
 
-                function WordCount(str) { 
-                  return str.split(" ").length;
-	     }
-
                 var D = Filthy.charAt(0);
                 var four = FilthyActsAtAReasonablePrice4.WordCount();
                 var C2 = Price.charAt(0);
     
     
                 var C = C2.toUpperCase();
+
+                var Check = AtA.includes("with an");
+                var Check1 = AtA.includes("with a");
+                var Check2 = AtA.includes("at an");
+                var Check3 = AtA.includes("at a");
+
+                if(Check) {
+                 four = 5;
+		} else if(Check1){
+                 four = 5;
+		} else if(Check2){
+                 four = 5;
+		} else if(Check3){
+                 four = 5;
+		} else {
+                 four = 6;
+		}
         
                 var D4C = D + four + C;
