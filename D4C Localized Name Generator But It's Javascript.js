@@ -36,24 +36,21 @@
 		const randomNumber = Math.floor(Math.random() * FilthyActsAtAReasonablePrice3.length);
 		
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
-		
-		
-		
-   function countWords(str) {
-     return str.trim().split(/\s+/).length;
-   }
 
-        var D = Filthy.charAt(0);
-        var four = FilthyActsAtAReasonablePrice.countWords();
-        var C2 = Price.charAt(0);
-   
-    
-        var C = C2.toUpperCase();
+                 function countWords(str) {
+                    return str.trim().split(/\s+/).length;
+                  }
 
+                
 
+		var count = FilthyActsAtAReasonablePrice.countWords();
 
-        var D4C = D + four + C;
-    
+                var D = Filthy.charAt(0);
+		var four = 6;
+                var C2 = Price.charAt(0);
+              
+                var C = C2.toUpperCase();
+                var D4C = D + four + C;
     
 		
 
