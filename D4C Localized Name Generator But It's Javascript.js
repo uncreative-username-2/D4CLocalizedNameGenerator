@@ -48,20 +48,20 @@
     
                 var C = C2.toUpperCase();
 
-                var Check = AtA.includes("with an");
+                var Check0 = AtA.includes("with an");
                 var Check1 = AtA.includes("with a");
                 var Check2 = AtA.includes("at an");
                 var Check3 = AtA.includes("at a");
 
                 var D4C = D + "6" + C;
 
-                if(Check) {
+                if(Check0 == true) {
                  four = 5;
-		} else if(Check1){
+		} else if(Check1 == true){
                  D4C = D + "5" + C;
-		} else if(Check2){
+		} else if(Check2 == true){
                  D4C = D + "5" + C;
-		} else if(Check3){
+		} else if(Check3 == true){
                  D4C = D + "5" + C;
 		} else {
                  D4C = D + "6" + C;
