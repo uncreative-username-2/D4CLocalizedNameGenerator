@@ -42,19 +42,12 @@
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
                 var FilthyActsAtAReasonablePrice4 = FilthyActsAtAReasonablePrice32[randomNumber];
 
-           function countWords(s){
-              s = s.replace(/(^\s*)|(\s*$)/gi,"");//exclude  start and end white-space
-              s = s.replace(/[ ]{2,}/gi," ");//2 or more space to 1
-              s = s.replace(/\n /,"\n"); // exclude newline with a start spacing
-              return s.split(' ').filter(function(str){return str!="";}).length;
-            //return s.split(' ').filter(String).length; - this can also be used
-         }
-
-                 var D = Filthy.charAt(0);
-                 var four = FilthyActsAtAReasonablePrice4.countWords();
-                 var C2 = Price.charAt(0);
+                var D = Filthy.charAt(0);
+                var four = 6;
+                var C2 = Price.charAt(0);
     
     
-                 var C = C2.toUpperCase();
+               var C = C2.toUpperCase();
         
-                 var D4C = D + four + C;
+               var D4C = D + four + C;
+           
