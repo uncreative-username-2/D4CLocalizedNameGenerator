@@ -48,7 +48,7 @@
         }
 
         var D = Filthy.charAt(0);
-        var four = countWords(FilthyActsAtAReasonablePrice);
+        var four = FilthyActsAtAReasonablePrice.countWords();
         var C2 = Price.charAt(0);
    
     
