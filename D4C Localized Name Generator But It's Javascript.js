@@ -39,13 +39,11 @@
 		
 		
 		
-
-        function countWords(s){
-          s = s.replace(/\n/g,' '); 
-          s = s.replace(/(^\s*)|(\s*$)/gi,''); 
-          s = s.replace(/[ ]{2,}/gi,' '); 
-          return s.split(' ').length; 
-        }
+    function countWords(str) {
+      return str.split(' ')
+            .filter(function(n) { return n != '' })
+            .length;
+       }
 
         var D = Filthy.charAt(0);
         var four = FilthyActsAtAReasonablePrice.countWords();
