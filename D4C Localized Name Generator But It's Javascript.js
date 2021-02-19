@@ -30,12 +30,17 @@
 		
 		var FilthyActsAtAReasonablePrice1 = Filthy + " " + Acts + " " + AtA + " " + Reasonable + " " + Price;
 		var FilthyActsAtAReasonablePrice2 = Filthy + " " + Acts + " " + AtA2 + " " + Reasonable2 + " " + Price;
+                var FilthyActsAtAReasonablePrice12 = Acts + " " + AtA + " " + Reasonable + " " + Price;
+		var FilthyActsAtAReasonablePrice22 = Acts + " " + AtA2 + " " + Reasonable2 + " " + Price;
 		
 		var FilthyActsAtAReasonablePrice3 = [FilthyActsAtAReasonablePrice1, FilthyActsAtAReasonablePrice2];
+                var FilthyActsAtAReasonablePrice32 = [FilthyActsAtAReasonablePrice12, FilthyActsAtAReasonablePrice22];
 		
 		const randomNumber = Math.floor(Math.random() * FilthyActsAtAReasonablePrice3.length);
-		
+		const randomNumber = Math.floor(Math.random() * FilthyActsAtAReasonablePrice32.length);
+
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
+                var FilthyActsAtAReasonablePrice4 = FilthyActsAtAReasonablePrice32[randomNumber];
 
            function countWords(s){
               s = s.replace(/(^\s*)|(\s*$)/gi,"");//exclude  start and end white-space
@@ -46,7 +51,7 @@
          }
 
                  var D = Filthy.charAt(0);
-                 var four = FilthyActsAtAReasonablePrice.countWords();
+                 var four = FilthyActsAtAReasonablePrice4.countWords();
                  var C2 = Price.charAt(0);
     
     
