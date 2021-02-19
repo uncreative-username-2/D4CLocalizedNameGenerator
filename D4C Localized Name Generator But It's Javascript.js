@@ -37,8 +37,12 @@
 		
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
 
+                 function countWords(str) {
+                   return str.trim().split(/\s+/).length;
+		 }  
+
                  var D = Filthy.charAt(0);
-                 var four = 6;
+                 var four = FilthyActsAtAReasonablePrice.countWords();
                  var C2 = Price.charAt(0);
     
     
