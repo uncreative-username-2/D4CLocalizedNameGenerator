@@ -51,6 +51,6 @@
               
                 var C = C2.toUpperCase();
                 
-    
+                var D4C = D + four.toString + C;
 		
 
