@@ -47,7 +47,6 @@
                 var C2 = Price.charAt(0);
     
     
-               var C = C2.toUpperCase();
+                var C = C2.toUpperCase();
         
-               var D4C = D + four + C;
-           
+                var D4C = D + four + C;
