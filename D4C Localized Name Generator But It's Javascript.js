@@ -46,7 +46,7 @@
          }
 
                  var D = Filthy.charAt(0);
-                 var yes = FilthyActsAtAReasonablePrice.countWords();
+                 var yes = FilthyActsAtAReasonablePrice.countWords() - 1;
                  var C2 = Price.charAt(0);
     
     
