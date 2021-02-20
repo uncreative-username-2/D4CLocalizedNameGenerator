@@ -41,4 +41,16 @@
 		var FilthyActsAtAReasonablePrice = FilthyActsAtAReasonablePrice3[randomNumber];
                 
         
+                function countWords(str) {
+                    return str.trim().split(/\s+/).length;
+                 }
+
+
+                var D = Filthy.charAt(0);
+                var four = countWords(FilthyActsAtAReasonablePrice) -1;
+                var C2 = Price.charAt(0);
+
+                var C = C2.toUpperCase();
+
+                var D4C = D + four + C;
                
