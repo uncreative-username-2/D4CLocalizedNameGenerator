@@ -1,12 +1,12 @@
        //I know the code is a mess
-                var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "Dreadful", "Awful", "Regrettable", "Evil", "Inferior", "Inadequate", "Atrocious", "Imperfect", "Unpleasant", "Adverse", "Ruinous", "Harmful", "Hurtful", "Sinful", "Villainous", "Dishonest", "Amoral", "Nefarious", "Wicked", "Depraved", "Unscrupulous", "Unprincipled", "Corrupt", "Dastardly", "Iniquitous", "Profane", "Indecent", "Improper", "Indecorous", "Foul", "Detrimental"];
-		var deeds = ["actions", "acts"];
-		var done = ["preformed at a", "done at a", "executed at a", "done with a", "preformed with a", "made with a", "at a", "with a"];
+                var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "Dreadful", "Awful", "Regrettable", "Evil", "Inferior", "Inadequate", "Atrocious", "Imperfect", "Unpleasant", "Adverse", "Ruinous", "Harmful", "Hurtful", "Sinful", "Villainous", "Dishonest", "Amoral", "Nefarious", "Wicked", "Depraved", "Unscrupulous", "Unprincipled", "Corrupt", "Dastardly", "Iniquitous", "Profane", "Indecent", "Improper", "Indecorous", "Foul", "Detrimental", "Grimy"];
+		var deeds = ["actions", "acts", "accomplishments"];
+		var done = ["preformed at a", "done at a", "executed at a", "done with a", "preformed with a", "made with a", "at a", "with a", "completed at a", "completed with a"];
 		var dirt = ["low", "fair", "reasonable"];
-		var cheap = ["price", "cost", "value", "amount", "expense"];
+		var cheap = ["price", "cost", "value", "amount", "expense", "discount"];
 		
 		var dirt2 = ["inexpensive", "affordable"];
-		var done2 = ["preformed at an", "done at an", "executed at an", "done with an", "preformed with an", "made with an", "at an", "with an"];
+		var done2 = ["preformed at an", "done at an", "executed at an", "done with an", "preformed with an", "made with an", "at an", "with an", "completed at an", "completed with an"];
 		
 		const randomNumber1 = Math.floor(Math.random() * dirty.length);
 		const randomNumber2 = Math.floor(Math.random() * deeds.length);
