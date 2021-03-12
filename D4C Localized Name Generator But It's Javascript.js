@@ -1,8 +1,8 @@
        //I know the code is a mess
-                var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "Dreadful", "Awful", "Regrettable", "Evil", "Inferior", "Inadequate", "Atrocious", "Imperfect", "Unpleasant", "Adverse", "Ruinous", "Harmful", "Hurtful", "Sinful", "Villainous", "Dishonest", "Amoral", "Nefarious", "Wicked", "Depraved", "Unscrupulous", "Unprincipled", "Corrupt", "Dastardly", "Iniquitous", "Profane", "Indecent", "Improper", "Indecorous", "Foul", "Detrimental", "Grimy"];
-		var deeds = ["actions", "acts", "accomplishments"];
+                var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "Dreadful", "Awful", "heinous", "Regrettable", "Evil", "Inferior", "Inadequate", "Atrocious", "Imperfect", "Unpleasant", "Adverse", "Ruinous", "Harmful", "Hurtful", "Sinful", "Villainous", "Dishonest", "Amoral", "Nefarious", "Wicked", "Depraved", "Unscrupulous", "Unprincipled", "Corrupt", "Dastardly", "Iniquitous", "Profane", "Indecent", "Improper", "Indecorous", "Foul", "Detrimental", "Grimy"];
+		var deeds = ["actions", "acts", "accomplishments", "jobs"];
 		var done = ["preformed at a", "done at a", "executed at a", "done with a", "preformed with a", "made with a", "at a", "with a", "completed at a", "completed with a"];
-		var dirt = ["low", "fair", "reasonable"];
+		var dirt = ["low", "fair", "reasonable", "curtailed"];
 		var cheap = ["price", "cost", "value", "amount", "expense", "discount"];
 		
 		var dirt2 = ["inexpensive", "affordable"];
