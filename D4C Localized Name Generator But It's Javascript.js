@@ -1,12 +1,12 @@
        //I know the code is a mess
                 var dirty = ["Bad", "Immoral", "Inexcusable", "Terrible", "Flawed", "Filthy", "Dreadful", "Awful", "heinous", "Regrettable", "Evil", "Inferior", "Inadequate", "Atrocious", "Imperfect", "Unpleasant", "Adverse", "Ruinous", "Harmful", "Hurtful", "Sinful", "Villainous", "Dishonest", "Amoral", "Nefarious", "Wicked", "Depraved", "Unscrupulous", "Unprincipled", "Corrupt", "Dastardly", "Iniquitous", "Profane", "Indecent", "Improper", "Indecorous", "Foul", "Detrimental", "Grimy"];
 		var deeds = ["actions", "acts", "accomplishments", "jobs"];
-		var done = ["preformed at a", "done at a", "executed at a", "done with a", "preformed with a", "made with a", "at a", "with a", "completed at a", "completed with a"];
+		var done = ["preformed at a", "done at a", "executed at a", "done with a", "preformed with a", "made with a", "at a", "with a", "completed at a", "completed with a", "preformed for a", "done for a", "executed for a", "done for a", "preformed with a", "made with a", "at a", "with a", "completed at a", "completed with a", "preformed for a", "done for a", "executed for a", "done for a", "preformed for a", "made for a", "for a", "completed for a"];
 		var dirt = ["low", "fair", "reasonable", "curtailed"];
 		var cheap = ["price", "cost", "value", "amount", "expense", "discount"];
 		
 		var dirt2 = ["inexpensive", "affordable"];
-		var done2 = ["preformed at an", "done at an", "executed at an", "done with an", "preformed with an", "made with an", "at an", "with an", "completed at an", "completed with an"];
+		var done2 = ["preformed at an", "done at an", "executed at an", "done with an", "preformed with an", "made with an", "at an", "with an", "completed at an", "completed with an", "preformed for a", "done for a", "executed for a", "done for a", "preformed with a", "made with a", "at a", "with a", "completed at a", "completed with a", "preformed for an", "done for an", "executed for an", "done for an", "preformed for an", "made for an", "for an", "completed for an"];
 		
 		const randomNumber1 = Math.floor(Math.random() * dirty.length);
 		const randomNumber2 = Math.floor(Math.random() * deeds.length);
